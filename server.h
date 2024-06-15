@@ -7,10 +7,6 @@
 
 
 typedef struct {
-	int __dummy;
-} SClient;
-
-typedef struct {
 	const char *sock_file;
 	uv_loop_t  *loop;
 } Server;
